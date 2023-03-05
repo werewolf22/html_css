@@ -273,15 +273,12 @@ header button {
 }
 
 .btn-outline:hover {
-    padding: 10px 15px;
-    font-size: small;
-    font-weight: lighter;
-    border: 0px;
-    border-radius: 5px;
     background-color: rgb(160, 158, 158);
-    color: white;
 }
 
+.btn-outline:hover .simple-link{
+    color: white;
+}
 
 
 footer {
