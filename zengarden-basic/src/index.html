@@ -6,31 +6,38 @@
     <title>Bootstrap w/ Vite</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <section class="intro" id="zen-intro">
-            <header role="banner">
-                <div class="row">
-                    <div class="col-md-7 offset-md-1">
-                        <h1>CSS Zen Garden</h1>
-                        <h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
+            <header role="banner" class="row align-items-center text-white banner">
+                <div class="col-md-7 offset-md-1 d-flex align-items-center hero">
+                    <div>
+                        <img src="images/enso.svg" alt="website logo" >
                     </div>
-                    <div class="col-md-4">
-                        <div class="design-archives" id="design-archives">
-                            <h3 class="archives">Archives:</h3>
-                            <nav role="navigation">
-                                <ul>
-                                    <li class="next">
-                                        <a href="/214/page1">
-                                            Next Designs <span class="indicator">&rsaquo;</span>
-                                        </a>
-                                    </li>
-                                    <li class="viewall">
-                                        <a href="http://www.mezzoblue.com/zengarden/alldesigns/" title="View every submission to the Zen Garden.">
-                                            View All Designs							</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+                    <div class="ps-4">
+                        <h1 class="text-uppercase">CSS Zen Garden</h1>
+                        <div class="h3 fst-italic">The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</div>
+                    </div>
+                </div>
+                <div class="col-md-4 h-100 px-5 row align-items-center design-archives-wrapper">
+                    <div class="design-archives" id="design-archives">
+                        <h3 class="archives">Archives:</h3>
+                        <nav role="navigation" class="row align-items-center">
+                            <div class="col-sm-auto previous">
+                                <a href="/214/">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </a>
+                            </div>
+                            <div class="col-sm text-center text-uppercase viewall">
+                                <a href="http://www.mezzoblue.com/zengarden/alldesigns/" title="View every submission to the Zen Garden.">
+                                    View All Designs
+                                </a>
+                            </div>
+                            <div class="col-sm-auto next">
+                                <a href="/214/page1">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </header>
